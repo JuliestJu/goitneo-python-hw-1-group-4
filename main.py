@@ -1,5 +1,5 @@
 from datetime import datetime
-from Task_1 import birthday_helper
+from Task_1.birthday_helper import get_birthdays_per_week
 
 
 #Task_1
@@ -11,4 +11,4 @@ users = [
 ]
 
 # Call the function from birthday_helper.py
-birthday_helper.get_birthdays_per_week(users)
+get_birthdays_per_week(users)
