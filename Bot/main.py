@@ -1,4 +1,4 @@
-from bot import AssistantBot
+from assistant_bot import AssistantBot
 
 #Task2
 def main():
